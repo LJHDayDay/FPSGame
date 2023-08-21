@@ -9,6 +9,7 @@ public class PlayerRotate : MonoBehaviour
 
     private void Start()
     {
+        //마우스를 화면 가운데에다가 고정시킨 후 마우스 이미지를 삭제
         Cursor.lockState = CursorLockMode.Locked;
     }
     // Update is called once per frame
